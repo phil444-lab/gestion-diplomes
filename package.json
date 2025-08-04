@@ -11,8 +11,20 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@hyperledger/fabric-gateway": "^1.8.0",
     "@prisma/client": "^6.13.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-network": "^2.2.20",
+    "fs-extra": "^11.3.0",
+    "ipfs-http-client": "^60.0.1",
+    "multer": "^2.0.2",
     "prisma": "^6.13.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   }
 }
